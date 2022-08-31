@@ -24,8 +24,6 @@ public class StudentServiceImpl implements StudentService{
     @Autowired
     private ModelMapper modelMapper;
 
-    @Autowired
-    CourseRepository courseRepository;
 
     @Override
     public StudentDto createStudentAccount(StudentRequest studentRequest) throws SmsException {

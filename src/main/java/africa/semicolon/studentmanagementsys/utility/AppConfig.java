@@ -15,20 +15,7 @@ public class AppConfig {
         return new ModelMapper();
     }
 
-//    public static StudentDto map(Student savedStudent, StudentDto studentDto){
-//        studentDto.setEmail(savedStudent.getEmail());
-//        studentDto.setStudentId(generateStudentId(savedStudent.getStudentId()));
-//        return studentDto;
-//    }
-//    public static Student map(StudentRequest studentRequest, Student student){
-//        student.setFirstName(studentRequest.getFirstName());
-//        student.setLastName(studentRequest.getLastName());
-//        student.setEmail(studentRequest.getEmail());
-//        student.setPassword(studentRequest.getPassword());
-//        student.setDepartment(studentRequest.getDepartment());
-//        student.setCourses(studentRequest.getCourses());
-//        return student;
-//    }
+
 
 
 }
